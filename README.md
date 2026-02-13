@@ -8,3 +8,9 @@ This project is a simple (MCP) server built for Claude Code. It is a note‑taki
 3. Add the server to Claude Code using:
 claude mcp add --transport stdio dev-notes -- node /full/path/to/index.js
 
+## Example Usage
+
+1. Save a note: save_note with title and content as parameters.
+2. List all notes: list_notes to see every file in a directory.
+3. Read a note: read_note with a title to load the contents and have Claude read it back to you.
+
