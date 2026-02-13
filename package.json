@@ -1,0 +1,13 @@
+{
+  "name": "dev-notes-server",
+  "version": "1.0.0",
+  "description": "A simple MCP server for managing developer notes",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  }
+}
